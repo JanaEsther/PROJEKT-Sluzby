@@ -1,0 +1,25 @@
+/*
+Barvy:
+Pozadí stránky: #FAFAFA;
+Nadpisy h1, h2: #000000;
+Běžný text, text uvniř rámečku s ikonou: #8B8B8B;
+Barva tlačítek: #407BFF;  #8B8B8B;
+Pozadí dlaždic: #FFFFFF;
+Box-shadow: #407BFF1F;
+
+
+*/
+
+html {
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family:'Montserrat', sans-serif;
+  font-size: 16px;
+}
