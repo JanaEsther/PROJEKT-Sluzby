@@ -3,10 +3,14 @@ Barvy:
 Pozadí stránky: #FAFAFA;
 Nadpisy h1, h2: #000000;
 Běžný text, text uvniř rámečku s ikonou: #8B8B8B;
-Barva tlačítek: #407BFF;  #8B8B8B;
+Barva tlačítek:  Primární modrá #407BFF; Šedá #8B8B8B;
 Pozadí dlaždic: #FFFFFF;
 Box-shadow: #407BFF1F;
 
+Breakpointy
+Mobil   0 - 639px
+Tablet  640px - 1099px 
+PC      1100px a víc
 
 */
 
@@ -22,4 +26,70 @@ html {
 body {
   font-family:'Montserrat', sans-serif;
   font-size: 16px;
+  background-color: #FAFAFA;
 }
+
+.kancelar{
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #000000;
+    margin-top: 39.5px;
+    padding-bottom: 10px;
+  }
+
+  h2{
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+    
+  }
+
+.cesta{
+    font-size:13px;
+    font-weight: 300;
+}
+
+
+.chci{
+    background-color:#407BFF;
+    font-size:14px;
+    font-weight: 400;
+    color: #FAFAFA;
+    border:0;
+    text-align: center;
+    padding: 10px 30px;
+    border:0;
+    border-radius: 20px;
+    width: 195px;
+    height: 40px;
+   
+
+}
+
+.pohoda{
+    background-color:#8B8B8B;
+    font-size:14px;
+    font-weight: 400;
+    color: #FAFAFA;
+    border:0;
+    text-align: center;
+    padding: 10px 30px;
+    border:0;
+    border-radius: 20px;
+    width: 220px;
+    height: 40px;  
+}
+
+.blok{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
