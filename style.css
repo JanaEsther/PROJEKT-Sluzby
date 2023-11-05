@@ -7,12 +7,13 @@ Barva tlačítek:  Primární modrá #407BFF; Šedá #8B8B8B;
 Pozadí dlaždic: #FFFFFF;
 Box-shadow: #407BFF1F;
 
-Breakpointy
+Breakpointy:
 Mobil   0 - 639px
 Tablet  640px - 1099px 
 PC      1100px a víc
-
 */
+
+/*Mobil   0 - 639px*/
 
 html {
   box-sizing: border-box;
@@ -31,29 +32,60 @@ body {
 
 .kancelar{
     text-align: center;
-    margin-top: 60px;
+    margin: 60px auto 0 auto;
+
+  
   }
   
   h1 {
     text-align: center;
     font-size: 28px;
     color: #000000;
-    margin-top: 39.5px;
-    padding-bottom: 10px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    
+  }
+
+ hr{
+   margin-top:10px;
+   border-color: #407BFF;
+   width:60px;
+   height: 2px;
+  }
+
+  .traveller{
+    margin: 60px 75px 39.5px 75px;
   }
 
   h2{
     text-align: center;
     font-size: 16px;
     color: #000000;
+    margin-top: 60px;
+    margin-bottom: 0;
     
   }
 
-.cesta{
-    font-size:13px;
-    font-weight: 300;
+.text{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
 }
 
+.cesta{
+    display: inline-block;
+    font-size:13px;
+    font-weight: 300;
+    padding: 32px 20px 20px 29px;
+    text-align: left;
+    
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .chci{
     background-color:#407BFF;
@@ -67,8 +99,9 @@ body {
     border-radius: 20px;
     width: 195px;
     height: 40px;
+    margin-bottom: 10px;
+    margin-top:30px;
    
-
 }
 
 .pohoda{
@@ -88,7 +121,27 @@ body {
 .blok{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    margin: 28px 20px 60px 0;
+    
 }
+
+.nabidka{
+  display: flex;
+  justify-content:center;
+  flex: 0 0 calc(100% / 3 - 20px)
+  
+}
+
+.icon{
+  margin: 20px;
+  
+}
+
+
+
+
+
 
 
 
