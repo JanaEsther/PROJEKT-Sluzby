@@ -26,100 +26,105 @@ html {
   box-sizing: inherit;
 }
 
-body{
-  font-family: 'Montserrat', sans-serif;
-  color:#8B8B8B;
-  background-color:#FAFAFA;
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #8b8b8b;
+  background-color: #fafafa;
 }
 
-h1{
+h1 {
   font-size: 28px;
   font-weight: 500;
-  color:black;
+  color: black;
 }
 
-h1::after{
+h1::after {
   content: " ";
-  display:block;
-  background-color:#407BFF;
+  display: block;
+  background-color: #407bff;
   width: 60px;
   height: 2px;
-  margin: 10px 220px 15px 220px;
+  margin: 10px auto 15px auto;
 }
 
-h2{
+h2 {
   font-weight: 400;
-  color:black;
-  margin-top:60px;
+  color: black;
+  margin-top: 60px;
 }
 
-.obsah{
+.obsah {
   text-align: center;
-  max-width: 500px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-.big-photo{
-  margin: 60px 75px 40px 75px;
+.big-photo {
+  margin: 60px auto 40px auto;
 }
 
-.text{
- margin: 15px 20px 30px 20px;
+.text {
+  margin: 15px auto 30px auto;
 }
 
-.buttons{
+/*.buttons {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
+  align-items: center;}*/
 
-.button-blue{
-  display: inline-block;
-  background-color: #407BFF;
+.button-blue {
+  display:inline-block;
+  background-color: #407bff;
   color: white;
   font-size: 14px;
   font-weight: 400;
   padding: 10px 30px;
-  border:0;
+  border: 0;
   border-radius: 20px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.button-gray{
-  display: inline-block;
-  background-color: #8B8B8B;
+.button-gray {
+  display:inline-block;
+  background-color: #8b8b8b;
   color: white;
   font-size: 14px;
   font-weight: 400;
   padding: 10px 30px;
-  border:0;
+  border: 0;
   border-radius: 20px;
+  text-align: center;
 }
 
-.text-icon{
+.text-icon {
   display: flex;
   background-color: white;
   margin: 0 20px 15px 0;
-  border:0;
+  border: 0;
   border-radius: 10px;
-  box-shadow:0px 4px 6px #407BFF1F;
-  
+  box-shadow: 0px 4px 6px #407bff1f;
 }
 
-.icon-blok{
+.icon-blok {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
 }
 
-.icon{
+.icon {
   height: 40px;
   width: auto;
   margin: 20px;
 }
 
-.text-frame{
+.text-frame {
   font-size: 13px;
   font-weight: 300;
-  margin: 32px 20px 20px 9px;
+
+  margin: 32px auto 20px auto;
 }
+
+
+  
+  
 
