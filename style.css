@@ -36,6 +36,7 @@ h1 {
   font-size: 28px;
   font-weight: 500;
   color: black;
+  text-align: center;
 }
 
 h1::after {
@@ -60,6 +61,7 @@ h2 {
 
 .big-photo {
   margin: 60px auto 40px auto;
+
 }
 
 .text {
