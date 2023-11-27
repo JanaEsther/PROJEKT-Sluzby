@@ -68,11 +68,11 @@ h2 {
   margin: 15px auto 30px auto;
 }
 
-/*.buttons {
+.buttons {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;}*/
+  align-items: center;}
 
 .button-blue {
   display:inline-block;
