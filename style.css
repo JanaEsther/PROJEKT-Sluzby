@@ -20,6 +20,7 @@ PC      1100px a víc
 html {
   box-sizing: border-box;
 }
+
 *,
 :after,
 :before {
@@ -58,7 +59,7 @@ h1::after {
 }
 
 h2 {
-  font-weight:bold;
+  font-weight: bold;
   color: black;
   margin-top: 60px;
   font-size: 16px;
@@ -71,7 +72,7 @@ h2 {
 
 .big-photo {
   margin: 60px auto 40px auto;
-  max-width:100%;
+  max-width: 100%;
 
 }
 
@@ -83,10 +84,11 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;}
+  align-items: center;
+}
 
 .button-blue {
-  display:inline-block;
+  display: inline-block;
   background-color: #407bff;
   color: white;
   font-size: 14px;
@@ -99,7 +101,7 @@ h2 {
 }
 
 .button-gray {
-  display:inline-block;
+  display: inline-block;
   background-color: #8b8b8b;
   color: white;
   font-size: 14px;
@@ -119,7 +121,7 @@ h2 {
   box-shadow: 0px 4px 6px #407bff1f;
 }
 
-.block-icon{
+.blok-icon {
   display: flex;
   flex-direction: column;
   padding-right: 20px;
@@ -135,32 +137,85 @@ h2 {
   font-size: 13px;
   font-weight: 300;
   margin: 32px 60px 20px 20px;
-  text-align:left;
+  text-align: left;
 }
 
 
-@media screen and (min-width:640px){
- 
+@media screen and (min-width:640px) {
 
-  .text-icon{
+  .blok-icon{
+    flex-direction: row;
+    padding-right: 0;
+  }
+
+  .text-icon {
     flex: 0 0 calc(100% / 3);
     flex-direction: column;
-    justify-content: center;
-    margin-right: 20px;
+    text-align: center; 
+  }
+
+  .icon{
+    margin-bottom:0;
+    margin-top: 40px;
+  }
+
+  .text-frame{
+    margin: 20px 15px 20px 15px;
+    text-align: center; 
   }
 
 
-  .buttons{
+  .buttons {
     flex-direction: row;
 
   }
-  .button-blue{
-    margin-bottom:0;
+
+  .button-blue {
+    margin-bottom: 0;
     margin-right: 20px;
   }
 
-  
-  
+  .text{
+    max-width: 80%;
+  }
 
-}  
+}
+
+@media screen and (min-width:1100px){
+
+  .section{
+    max-width: 80%;
+    margin:0 auto;
+  }
+  .container{
+    flex-direction: row;
+    gap: 60px;
+  }
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .title{
+  max-width:50%;
   
+  }
+
+  h1{
+    text-align: left; 
+  }
+
+  h1::after{
+    align-items: flex-start;
+  }
+
+  .buttons{
+    justify-content: left;
+  }
+
+  text{
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
