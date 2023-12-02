@@ -167,7 +167,6 @@ h2 {
 
   .buttons {
     flex-direction: row;
-
   }
 
   .button-blue {
@@ -190,32 +189,61 @@ h2 {
   .container{
     flex-direction: row;
     gap: 60px;
+    max-width:80%;
+    margin: 0 auto;
   }
   .reverse {
     flex-direction: row-reverse;
+    
   }
 
   .title{
   max-width:50%;
-  
+  margin-right: 20px;
+
   }
 
-  h1{
+  h1,
+  h2{
     text-align: left; 
   }
 
-  h1::after{
-    align-items: flex-start;
+  h1::after {
+    text-align:left;
+    margin: 10px 0 15px 0;
   }
 
+
+  h2
+  {
+    text-align: left; 
+   
+  }
+  
   .buttons{
     justify-content: left;
   }
+  .text{
+    max-width: 100%;
+    margin: 10px 0 15px 0;
+    text-align: start;
 
-  text{
-    text-align: left;
-    margin-left: 0;
-    padding-left: 0;
+  }
+
+  .levy{
+    margin-left: 55px;
+  }
+
+  .blok-icon{
+    max-width: 58%;
+  }
+ 
+  .blok-popis{
+    max-width:42%;
+  }
+
+  .dolni{
+    margin-top: 75px;
   }
 }
 
